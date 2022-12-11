@@ -9,7 +9,7 @@
 
 ### Discord: @LindaK
 
-***************
+**************
 ## About me:
 
 My name is Linda. I have a higher pharmaceutical education and have been working in the pharmaceutical field for the last 7 years.
@@ -33,11 +33,22 @@ Two years ago, I became interested in the IT field and started testing in my fre
 *******************
 ## Project
  ```
- function multiply(a,b){
- return a * b
-}
+const timeScreen = document.createElement('div');
+    timeScreen.className = 'time_screen';
 
-console.log(multiply);
+area.before(timeScreen);
+
+const moves = document.createElement('div');
+    moves.className = 'moves screen';
+    moves.innerHTML = 'Moves:';
+
+timeScreen.append(moves);
+
+const time = document.createElement('div');
+    time.className = 'time screen';
+    time.innerHTML = 'Time:';
+
+timeScreen.append(time);
 ```
  ********************
 ## Language Skills:
