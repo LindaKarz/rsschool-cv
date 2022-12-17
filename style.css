@@ -55,8 +55,11 @@ h1, h2,  h3, h4, h5, h6 {
   padding: 0;
 }
 
-.contact-item {
+li {
   list-style-type: none;
+}
+
+.contact-item {
   font-size: 18px;
   font-weight: 500;
 }
@@ -67,5 +70,35 @@ h1, h2,  h3, h4, h5, h6 {
 }
 
 .git-link:hover {
+  color: white;
+}
+
+.nav {
+  background: white;
+  padding: 10px 0;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px;
+}
+
+.nav-link {
+  padding: 5px 12px;
+  border-radius: 12%;
+  border: 2px solid;
+}
+
+.nav-link:hover {
+  background: rgb(205, 222, 245);
   color: white;
 }
