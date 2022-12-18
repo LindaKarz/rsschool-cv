@@ -143,19 +143,21 @@ li {
 }
 
 .code {
-  text-align: center;
-  padding-bottom: 20px;
+  padding:20px 0 20px 0;
 }
 
 .code-example {
-  padding-right: 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  border: 2px solid;
 }
 
 .project-wrapper {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  padding-bottom: 20px;
+  padding: 0 50px 20px 50px;
 }
 
 .project-subtitle {
@@ -175,11 +177,53 @@ li {
 .project-img {
   width: 250px;
   height: 300px;
-  padding-top: 20px;
+  margin-top: 20px;
   opacity: .5;
+  border: 3px solid;
 }
 
 .project-img:hover {
   opacity: 1;
 }
 
+.education-table {
+  margin: 0 auto;
+  background: white;
+  border: 3px solid;
+}
+
+.education-table-item {
+  padding: 5px 15px 5px 10px;
+}
+
+.lang-level {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer {
+  background: white;
+}
+
+.footer-nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-footer:hover {
+  color: rgb(62, 62, 119);
+}
+
+.rs-logo {
+  width: 80px;
+}
+
+.rs-logo:hover {
+  opacity: .5;
+}
+
+.footer-nav-item {
+  font-size: 20px;
+  font-weight: 600;
+}
