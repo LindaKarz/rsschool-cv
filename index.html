@@ -11,10 +11,10 @@
   <header class="header wrapper">
     <div class="header-inf">
       <h1 class="header-title">Linda Krycheuskaya</h1>
-      <h2 class="header-subtitle">Javascript Software Engineer</h2>
+      <h2 class="header-subtitle">Frontend Web Developer</h2>
       <ul class="header-contacts">
         <li class="contact-item">
-          <a href="https://github.com/LindaKarz" class="link git-link">GitHub</a>
+          <a href="https://github.com/LindaKarz" class="link git-link" target="_blank">GitHub</a>
         </li>
         <li class="contact-item">
           Discord: @LindaK
@@ -32,16 +32,16 @@
         <a href="#skills" class="link nav-link">Skills</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="link nav-link">Code</a>
+        <a href="#code" class="link nav-link">Code</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="link nav-link">Projects</a>
+        <a href="#projects" class="link nav-link">Projects</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="link nav-link">Education</a>
+        <a href="#education" class="link nav-link">Education</a>
       </li>
       <li class="nav-item">
-        <a href="#" class="link nav-link">Contacts</a>
+        <a href="#contacts" class="link nav-link">Contacts</a>
       </li>
     </ul>
   </nav>
@@ -64,6 +64,43 @@
           <li class="skills-item">Figma</li>
           <li class="skills-item">SASS</li>
         </ul>
+    </section>
+    <section id="code" class="code">
+      <h2 class="main-title code-title">My code example</h2>
+      <pre class="code-example">
+        <code>const area = document.createElement('div');
+          area.className = 'area';
+          document.body.appendChild(area);
+          
+          const puzzleSize = 80;
+          
+          
+          const emptyPuzzle = {
+              value: 0,
+              bottom: 0,
+              right: 0
+          };
+          
+          const puzzles = [];
+          puzzles.push(emptyPuzzle);</code>
+      </pre>
+    </section>
+    <section id="projects" class="projects">
+      <h2 class="main-title projects-title">My Projects</h2>
+      <div class="project-wrapper">
+        <div class="project-item project-1">
+          <h3 class="project-subtitle">
+            <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/online-zoo/" class="link project-link" target="_blank">PetStory</a>
+          </h3>
+          <img src="image/petstore.png" class="project-img" alt="first project image">
+        </div>
+        <div class="project-item project-2">
+          <h3 class="project-subtitle">
+            <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/Codejam-2022Q3/" class="link project-link" target="_blank">Puzzles</a>
+          </h3>
+          <img src="image/puzzles.png" class="project-img" alt="second project image">
+        </div>
+      </div>
     </section>
   </main>
 </body>

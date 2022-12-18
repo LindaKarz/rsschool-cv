@@ -141,3 +141,45 @@ li {
   padding: 5px 0;
   padding-right: 25px;
 }
+
+.code {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.code-example {
+  padding-right: 30px;
+}
+
+.project-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 20px;
+}
+
+.project-subtitle {
+  text-align: center;
+  font-size: 40px;
+}
+
+.project-link {
+  color: rgb(41, 75, 90);
+  font-size: 30px;
+}
+
+.project-link:hover {
+  color: white;
+}
+
+.project-img {
+  width: 250px;
+  height: 300px;
+  padding-top: 20px;
+  opacity: .5;
+}
+
+.project-img:hover {
+  opacity: 1;
+}
+
