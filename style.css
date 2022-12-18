@@ -125,7 +125,6 @@ li {
 
 .skills {
   text-align: center;
-  padding-bottom: 20px;
 }
 
 .skills-title {
@@ -135,6 +134,7 @@ li {
 
 .skills-list {
   font-size: 26px;
+  font-weight: 600;
 }
 
 .skills-item {
@@ -143,7 +143,7 @@ li {
 }
 
 .code {
-  padding:20px 0 20px 0;
+  padding: 0 0 20px 0;
 }
 
 .code-example {
@@ -194,6 +194,8 @@ li {
 
 .education-table-item {
   padding: 5px 15px 5px 10px;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .lang-level {
@@ -226,4 +228,50 @@ li {
 .footer-nav-item {
   font-size: 20px;
   font-weight: 600;
+}
+
+@media(max-width: 725px) {
+
+  .header-title {
+    font-size: 25px;
+  }
+
+  .header-subtitle {
+    font-size: 18px;
+  }
+
+  .header-contacts {
+    display: none;
+  }
+
+  .header-img {
+    max-width: 200px;
+  }
+
+  .nav-item {
+    font-size: 14px;
+  }
+
+  .nav-list {
+    flex-wrap: wrap;
+  }
+
+  .code-example {
+    font-size: 12px;
+    max-width: 350px;
+  }
+
+  .footer-nav-item {
+    font-size: 14px;
+  }
+
+  .rs-logo {
+    width: 50px;
+  }
+
+  .project-img {
+    width: 160px;
+    height: 220px;
+  }
+
 }
