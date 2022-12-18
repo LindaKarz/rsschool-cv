@@ -102,3 +102,42 @@ li {
   background: rgb(205, 222, 245);
   color: white;
 }
+
+.main {
+  background: rgb(205, 222, 245);
+}
+
+.main-title {
+  text-align: center;
+  font-size: 30px;
+  color: rgba(2, 35, 97, 0.63);
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.about-text {
+  padding: 0 0 5px 10px;
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.skills {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.skills-title {
+  padding: 30px 0 5px 0;
+  margin: 0;
+}
+
+.skills-list {
+  font-size: 26px;
+}
+
+.skills-item {
+  padding: 5px 0;
+  padding-right: 25px;
+}
