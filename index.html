@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+  <header id="header" class="header wrapper">
+    <div class="header-inf">
+      <h1 class="header-title">Linda Krycheuskaya</h1>
+      <h2 class="header-subtitle">Frontend Developer</h2>
+      <ul class="header-contacts">
+        <li class="contact-item">
+          <a href="https://github.com/LindaKarz" class="link git-link" target="_blank">GitHub</a>
+        </li>
+        <li class="contact-item">
+          Discord: @LindaK
+        </li>
+      </ul>
+    </div>
+    <img src="image/DSC_1574.JPG" class="header-img" alt="avatar">
+  </header>
+  <nav class="nav wrapper">
+    <ul class="nav-list">
+      <li class="nav-item">
+        <a href="#about" class="link nav-link about-link">About</a>
+      </li>
+      <li class="nav-item">
+        <a href="#skills" class="link nav-link">Skills</a>
+      </li>
+      <li class="nav-item">
+        <a href="#code" class="link nav-link code-link">Code</a>
+      </li>
+      <li class="nav-item">
+        <a href="#projects" class="link nav-link">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a href="#education" class="link nav-link">Education</a>
+      </li>
+      <li class="nav-item">
+        <a href="#contacts" class="link nav-link">Contacts</a>
+      </li>
+    </ul>
+  </nav>
+  <main class="main wrapper">
+    <section id="about" class="about">
+      <h2 class="main-title about-title">About me</h2>
+      <p class="about-text">Hello! My name is Linda. I am a pharmacist.</p>
+      <p class="about-text">Six months ago, I started my way in development.</p>
+      <p class="about-text">I completed Stage 1, but decided that I needed more time to learn all the information.</p>
+      <p class="about-text">I hope everything works out for me.</p>
+    </section>
+    <section id="skills" class="skills">
+      <h2 class="main-title skills-title">My Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">JavaScript (basic)</li>
+          <li class="skills-item">VS Code</li>
+          <li class="skills-item">GitHub</li>
+          <li class="skills-item">Figma</li>
+          <li class="skills-item">SASS</li>
+        </ul>
+    </section>
+    <section id="code" class="code">
+      <h2 class="main-title code-title">My code example</h2>
+      <pre class="code-example">
+        <code class="code-item">const area = document.createElement('div');
+          area.className = 'area';
+          document.body.appendChild(area);
+          
+          const puzzleSize = 80;
+          
+          
+          const emptyPuzzle = {
+              value: 0,
+              bottom: 0,
+              right: 0
+          };
+          
+          const puzzles = [];
+          puzzles.push(emptyPuzzle);</code>
+      </pre>
+    </section>
+    <section id="projects" class="projects">
+      <h2 class="main-title projects-title">My Projects</h2>
+      <div class="project-wrapper">
+        <div class="project-item project-1">
+          <h3 class="project-subtitle">
+            <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/online-zoo/" class="link project-link" target="_blank">PetStory</a>
+          </h3>
+          <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/online-zoo/" class="link project-link" target="_blank">
+            <img src="image/petstore.png" class="project-img" alt="first project image">
+          </a>
+        </div>
+        <div class="project-item project-2">
+          <h3 class="project-subtitle">
+            <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/Codejam-2022Q3/" class="link project-link" target="_blank">Puzzles</a>
+          </h3>
+          <a href="https://rolling-scopes-school.github.io/lindakarz-JSFE2022Q3/Codejam-2022Q3/" class="link project-link" target="_blank">
+            <img src="image/puzzles.png" class="project-img" alt="second project image">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="education" class="education">
+      <h2 class="main-title education-title">My Education</h2>
+     <table class="education-table">
+      <tbody>
+        <tr class="education-table-row">
+          <td class="education-table-item">July 2022 - September 2022</td>
+          <td class="education-table-item">CodeBasic</td>
+          <td class="education-table-item">HTML, CSS, JS courses</td>
+        </tr>
+        <tr class="education-table-row">
+          <td class="education-table-item">September 2022 - December 2022</td>
+          <td class="education-table-item">The Rolling Scopes School</td>
+          <td class="education-table-item">Front-end Course Stage 1</td>
+        </tr>
+        <tr class="education-table-row">
+          <td class="education-table-item">December 2022 - March 2023</td>
+          <td class="education-table-item">The Rolling Scopes School</td>
+          <td class="education-table-item">Front-end Course Stage 0</td>
+        </tr>
+      </tbody>
+     </table>
+     <h3 class="lang-level">English level - A2</h3>
+    </section>
+  </main>
+  <footer id="contacts" class="footer wrapper">
+    <nav class="footer-nav">
+      <ul class="footer-nav-list">
+        <li class="footer-nav-item">
+          <a href="https://github.com/LindaKarz" class="link link-footer git-link" target="_blank">GitHub</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="mailto:lindakarzewa@gmail.com" class="link link-footer email-link">Email</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="tel:+37533678XXXX" class="link link-footer tel-link">Phone</a>
+        </li>
+        <li class="footer-nav-item">
+          <a href="https://rs.school/js/" class="link link-footer rs-link" target="_blank">
+            <img src="image/rs_school_js.svg" alt="rs school logo" class="rs-logo">
+          </a>
+        </li>
+        <li class="footer-nav-item">2022</li>
+        <li class="footer-nav-item">
+          <a href="#header" class="link link-footer tel-link">&#9650;To the top</a>
+        </li>
+      </ul>
+    </nav>
+  </footer>
+</body>
+</html>
